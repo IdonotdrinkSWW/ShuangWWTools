@@ -17,8 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"%f",[StringWithHeight HeightWithText:@"wofjkjeihjo" width:20 font:[UIFont systemFontOfSize:12.]]);
+    NSString *string = @"计算文字的宽度";
+    NSLog(@"%f",[StringWithHeight HeightWithText:string width:20 font:[UIFont systemFontOfSize:15.]]);
 }
 
 
